@@ -1,45 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <!-- header section -->
     <header>
-        <!-- navigation section -->
-        <nav>
+        <nav class="text-right">
             <ul>
-                <li><a href="#Github">Github</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="https://github.com"></a>Github</li>
+                <li><a href="#Portfolio"></a>Portfolio</li>
+                <li><a href="#contact-me"></a>Contact</li>
             </ul>
-            </nav>
-
-        <h1>My New Website</h1>
+        </nav>
     </header>
-    <!-- portfolio section -->
+
     <main>
-        <section class="container">
-            <h2>Coming <br>soon</h2>
+        <h1 class="text-center">Oh Man, It's My Portfolio</h1>
+        <figure>
+            <img src="./assets/IMG_5081.jpg" alt="Stove Buscemi Meme">
+            <figcaption class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vero natus, dicta nisi inventore itaque, facilis accusamus animi nemo sint reiciendis perspiciatis id autem atque ratione, veritatis ad est ex?</figcaption>
+        </figure>
+        <section id="contact-me">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                    </li>
+                    <div class="text-center">
+                        <button type="submit">Click Here to Send</button>
+                    </div>
+                </ul>
+            </form> 
         </section>
     </main>
 
+        <footer class="text-center">
+            &copy; My New Website Productions
+        </footer>
 
-    <section class="contact-section">
-        <h3>Contact me</h3>
-      <!-- Name Input -->
-      <!-- Email Input -->
-      <!-- Send button -->
-    </section>
-
-    <footer>
-        <h4> &copy; 2023 My New Website Productions</h4>
-    
 </body>
 </html>
